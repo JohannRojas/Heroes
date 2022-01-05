@@ -6,7 +6,6 @@ export const LoginScreen = () => {
     const navigate = useNavigate()
 
     const handlelogin = () => {
-        console.log('login');
         navigate('/' , {
             replace: true
         })
